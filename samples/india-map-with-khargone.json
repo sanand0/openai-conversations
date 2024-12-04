@@ -1,0 +1,1970 @@
+{
+  "title": "India Map with Khargone",
+  "create_time": 1732884242.539525,
+  "update_time": 1732884540.300608,
+  "mapping": {
+    "aaa1c822-fc5c-4543-86f5-157ffd3994ad": {
+      "id": "aaa1c822-fc5c-4543-86f5-157ffd3994ad",
+      "message": null,
+      "parent": null,
+      "children": ["d6e37737-fd7c-4762-9508-6428326e1e3a"]
+    },
+    "d6e37737-fd7c-4762-9508-6428326e1e3a": {
+      "id": "d6e37737-fd7c-4762-9508-6428326e1e3a",
+      "message": {
+        "id": "d6e37737-fd7c-4762-9508-6428326e1e3a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1c822-fc5c-4543-86f5-157ffd3994ad",
+      "children": [
+        "f0c7f72e-4ca6-4188-8f4f-c76ac3148af0",
+        "aaa2044e-aa11-4e49-aa53-e1b2e041efb5"
+      ]
+    },
+    "f0c7f72e-4ca6-4188-8f4f-c76ac3148af0": {
+      "id": "f0c7f72e-4ca6-4188-8f4f-c76ac3148af0",
+      "message": {
+        "id": "f0c7f72e-4ca6-4188-8f4f-c76ac3148af0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\"```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_model_message": "Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\""
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6e37737-fd7c-4762-9508-6428326e1e3a",
+      "children": ["aaa28135-e797-4c98-b7d7-2b7182c6211c"]
+    },
+    "aaa28135-e797-4c98-b7d7-2b7182c6211c": {
+      "id": "aaa28135-e797-4c98-b7d7-2b7182c6211c",
+      "message": {
+        "id": "aaa28135-e797-4c98-b7d7-2b7182c6211c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884242.998,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India highlighting Madhya Pradesh State. Within that, add a marker at Khargone"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f0c7f72e-4ca6-4188-8f4f-c76ac3148af0",
+      "children": ["292fd4ed-1d15-4e47-8049-394ab4cdf7e8"]
+    },
+    "292fd4ed-1d15-4e47-8049-394ab4cdf7e8": {
+      "id": "292fd4ed-1d15-4e47-8049-394ab4cdf7e8",
+      "message": {
+        "id": "292fd4ed-1d15-4e47-8049-394ab4cdf7e8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884253.446777,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa28135-e797-4c98-b7d7-2b7182c6211c",
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa28135-e797-4c98-b7d7-2b7182c6211c",
+      "children": ["62f17d68-ac13-42ed-9984-ee20eb3c37c2"]
+    },
+    "62f17d68-ac13-42ed-9984-ee20eb3c37c2": {
+      "id": "62f17d68-ac13-42ed-9984-ee20eb3c37c2",
+      "message": {
+        "id": "62f17d68-ac13-42ed-9984-ee20eb3c37c2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884242.601112,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\"prompt\":\"A detailed map of India highlighting Madhya Pradesh in a distinct color. Within Madhya Pradesh, include a clear marker to identify Khargone. The map should feature a professional and minimalistic design, focusing on accurate geographical boundaries and prominent labeling of the state and marker.\",\"size\":\"1024x1024\"}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 17651654535.376163,
+            "search_prob": 0.024996908391309833
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "292fd4ed-1d15-4e47-8049-394ab4cdf7e8",
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "292fd4ed-1d15-4e47-8049-394ab4cdf7e8",
+      "children": ["f4fec84e-1688-4638-9126-09b2561b680c"]
+    },
+    "f4fec84e-1688-4638-9126-09b2561b680c": {
+      "id": "f4fec84e-1688-4638-9126-09b2561b680c",
+      "message": {
+        "id": "f4fec84e-1688-4638-9126-09b2561b680c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884253.446917,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-GkoYxmw4uhs4otr2a9qX5b",
+              "size_bytes": 378942,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "72rjnwqpIIvHLQ4F",
+                  "prompt": "A detailed map of India highlighting Madhya Pradesh in a distinct color. Within Madhya Pradesh, include a clear marker to identify Khargone. The map should feature a professional and minimalistic design, focusing on accurate geographical boundaries and prominent labeling of the state and marker.",
+                  "seed": 645641375,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "62f17d68-ac13-42ed-9984-ee20eb3c37c2",
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "62f17d68-ac13-42ed-9984-ee20eb3c37c2",
+      "children": ["c4d95653-73cd-4875-af31-4be3e76a20ec"]
+    },
+    "c4d95653-73cd-4875-af31-4be3e76a20ec": {
+      "id": "c4d95653-73cd-4875-af31-4be3e76a20ec",
+      "message": {
+        "id": "c4d95653-73cd-4875-af31-4be3e76a20ec",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884253.447,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f4fec84e-1688-4638-9126-09b2561b680c",
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f4fec84e-1688-4638-9126-09b2561b680c",
+      "children": ["d8534034-50fc-43a3-99c5-c41ed54ac1b4"]
+    },
+    "d8534034-50fc-43a3-99c5-c41ed54ac1b4": {
+      "id": "d8534034-50fc-43a3-99c5-c41ed54ac1b4",
+      "message": {
+        "id": "d8534034-50fc-43a3-99c5-c41ed54ac1b4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884252.784717,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh highlighted and Khargone marked."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c4d95653-73cd-4875-af31-4be3e76a20ec",
+          "request_id": "8ea2afd1cf61899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c4d95653-73cd-4875-af31-4be3e76a20ec",
+      "children": []
+    },
+    "aaa2044e-aa11-4e49-aa53-e1b2e041efb5": {
+      "id": "aaa2044e-aa11-4e49-aa53-e1b2e041efb5",
+      "message": {
+        "id": "aaa2044e-aa11-4e49-aa53-e1b2e041efb5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884287.13,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India highlighting Madhya Pradesh State. Within that, add a marker at Khargone. Avoid labels. Just draw the shapes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6e37737-fd7c-4762-9508-6428326e1e3a",
+      "children": ["2d7593b2-627d-45f3-bf2f-53216e48a38d"]
+    },
+    "2d7593b2-627d-45f3-bf2f-53216e48a38d": {
+      "id": "2d7593b2-627d-45f3-bf2f-53216e48a38d",
+      "message": {
+        "id": "2d7593b2-627d-45f3-bf2f-53216e48a38d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884297.214097,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2044e-aa11-4e49-aa53-e1b2e041efb5",
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2044e-aa11-4e49-aa53-e1b2e041efb5",
+      "children": ["afdbdc10-a64e-46a0-bd73-9bac6044a9b6"]
+    },
+    "afdbdc10-a64e-46a0-bd73-9bac6044a9b6": {
+      "id": "afdbdc10-a64e-46a0-bd73-9bac6044a9b6",
+      "message": {
+        "id": "afdbdc10-a64e-46a0-bd73-9bac6044a9b6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884287.717169,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state highlighted distinctly. Within Madhya Pradesh, a small marker is placed at the approximate location of Khargone. The map is devoid of labels or text, focusing purely on the shapes and geographical outline. The style is minimalist, using basic colors to distinguish Madhya Pradesh from the rest of India.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7807472224.563565,
+            "search_prob": 0.008738803255174102
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2d7593b2-627d-45f3-bf2f-53216e48a38d",
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "2d7593b2-627d-45f3-bf2f-53216e48a38d",
+      "children": ["253b45e8-34f1-4b3f-a4ce-2411e8cf57fb"]
+    },
+    "253b45e8-34f1-4b3f-a4ce-2411e8cf57fb": {
+      "id": "253b45e8-34f1-4b3f-a4ce-2411e8cf57fb",
+      "message": {
+        "id": "253b45e8-34f1-4b3f-a4ce-2411e8cf57fb",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884297.214226,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-AZgZUMB4ZnyM4DG926rjbv",
+              "size_bytes": 219230,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "i8V8PNwWO3Sk7bId",
+                  "prompt": "A simplified map of India with Madhya Pradesh state highlighted distinctly. Within Madhya Pradesh, a small marker is placed at the approximate location of Khargone. The map is devoid of labels or text, focusing purely on the shapes and geographical outline. The style is minimalist, using basic colors to distinguish Madhya Pradesh from the rest of India.",
+                  "seed": 265518106,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "afdbdc10-a64e-46a0-bd73-9bac6044a9b6",
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "afdbdc10-a64e-46a0-bd73-9bac6044a9b6",
+      "children": ["76707709-5c6a-494b-8e83-52f6bf80b449"]
+    },
+    "76707709-5c6a-494b-8e83-52f6bf80b449": {
+      "id": "76707709-5c6a-494b-8e83-52f6bf80b449",
+      "message": {
+        "id": "76707709-5c6a-494b-8e83-52f6bf80b449",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884297.214274,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "253b45e8-34f1-4b3f-a4ce-2411e8cf57fb",
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "253b45e8-34f1-4b3f-a4ce-2411e8cf57fb",
+      "children": ["41ab57b3-d8d2-47b0-b4ae-aff5b817dc36"]
+    },
+    "41ab57b3-d8d2-47b0-b4ae-aff5b817dc36": {
+      "id": "41ab57b3-d8d2-47b0-b4ae-aff5b817dc36",
+      "message": {
+        "id": "41ab57b3-d8d2-47b0-b4ae-aff5b817dc36",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884296.180228,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map you requested. Madhya Pradesh is highlighted with a marker placed at the approximate location of Khargone. Let me know if you'd like any adjustments!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "76707709-5c6a-494b-8e83-52f6bf80b449",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "request_id": "8ea2b0e5888a899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76707709-5c6a-494b-8e83-52f6bf80b449",
+      "children": ["aaa2cb78-98fd-4790-9ac6-c5933ee61cb0"]
+    },
+    "aaa2cb78-98fd-4790-9ac6-c5933ee61cb0": {
+      "id": "aaa2cb78-98fd-4790-9ac6-c5933ee61cb0",
+      "message": {
+        "id": "aaa2cb78-98fd-4790-9ac6-c5933ee61cb0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884334.722,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India highlighting Madhya Pradesh State. Within that, add a marker at Indore. Avoid labels. Just draw the shapes. \n\r\n\r"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b20f090d899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41ab57b3-d8d2-47b0-b4ae-aff5b817dc36",
+      "children": ["8e43a447-0b65-47ed-b29d-38a660f5dbbc"]
+    },
+    "8e43a447-0b65-47ed-b29d-38a660f5dbbc": {
+      "id": "8e43a447-0b65-47ed-b29d-38a660f5dbbc",
+      "message": {
+        "id": "8e43a447-0b65-47ed-b29d-38a660f5dbbc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884334.389731,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state highlighted distinctly. Within Madhya Pradesh, a small marker is placed at the approximate location of Indore. The map is devoid of labels or text, focusing purely on the shapes and geographical outline. The style is minimalist, using basic colors to distinguish Madhya Pradesh from the rest of India.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 16392738756.592844,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2cb78-98fd-4790-9ac6-c5933ee61cb0",
+          "request_id": "8ea2b20f090d899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2cb78-98fd-4790-9ac6-c5933ee61cb0",
+      "children": ["078d5b7a-90a2-4e73-affc-241719616b1f"]
+    },
+    "078d5b7a-90a2-4e73-affc-241719616b1f": {
+      "id": "078d5b7a-90a2-4e73-affc-241719616b1f",
+      "message": {
+        "id": "078d5b7a-90a2-4e73-affc-241719616b1f",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884346.320505,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-XVkUuzkSH1PQZLt2XzduQG",
+              "size_bytes": 161936,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "pIq0dJ7qdfNh5fR9",
+                  "prompt": "A simplified map of India with Madhya Pradesh state highlighted distinctly. Within Madhya Pradesh, a small marker is placed at the approximate location of Indore. The map is devoid of labels or text, focusing purely on the shapes and geographical outline. The style is minimalist, using basic colors to distinguish Madhya Pradesh from the rest of India.",
+                  "seed": 2839227203,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8e43a447-0b65-47ed-b29d-38a660f5dbbc",
+          "request_id": "8ea2b20f090d899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8e43a447-0b65-47ed-b29d-38a660f5dbbc",
+      "children": ["dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1"]
+    },
+    "dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1": {
+      "id": "dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1",
+      "message": {
+        "id": "dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884346.320636,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "078d5b7a-90a2-4e73-affc-241719616b1f",
+          "request_id": "8ea2b20f090d899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "078d5b7a-90a2-4e73-affc-241719616b1f",
+      "children": ["e8c11e88-a5a3-4a11-9a6f-607733ee444b"]
+    },
+    "e8c11e88-a5a3-4a11-9a6f-607733ee444b": {
+      "id": "e8c11e88-a5a3-4a11-9a6f-607733ee444b",
+      "message": {
+        "id": "e8c11e88-a5a3-4a11-9a6f-607733ee444b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884345.58118,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map with Madhya Pradesh highlighted and a marker placed at the approximate location of Indore. Let me know if you need any further adjustments!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "request_id": "8ea2b20f090d899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dbaa65b2-ed7d-401a-8edc-b80b73b5c9b1",
+      "children": ["aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb"]
+    },
+    "aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb": {
+      "id": "aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb",
+      "message": {
+        "id": "aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884380.996,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Indore. Avoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b3303ab1899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e8c11e88-a5a3-4a11-9a6f-607733ee444b",
+      "children": ["582fefac-1f45-44ea-a982-14620adb7f3e"]
+    },
+    "582fefac-1f45-44ea-a982-14620adb7f3e": {
+      "id": "582fefac-1f45-44ea-a982-14620adb7f3e",
+      "message": {
+        "id": "582fefac-1f45-44ea-a982-14620adb7f3e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884380.651108,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Indore within Madhya Pradesh. The map contains no labels or text, focusing only on geographical shapes and a minimalist design with basic colors to highlight Madhya Pradesh from the rest of India.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7809015083.355863,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb",
+          "request_id": "8ea2b3303ab1899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2d759-fd16-4deb-a1cc-bb4ac2d095cb",
+      "children": ["83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08"]
+    },
+    "83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08": {
+      "id": "83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08",
+      "message": {
+        "id": "83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884396.99858,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Gqg3CTqLunYpYsWi53Cyu1",
+              "size_bytes": 121122,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "jLBbunNITKbpGxio",
+                  "prompt": "A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Indore within Madhya Pradesh. The map contains no labels or text, focusing only on geographical shapes and a minimalist design with basic colors to highlight Madhya Pradesh from the rest of India.",
+                  "seed": 3248088150,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "582fefac-1f45-44ea-a982-14620adb7f3e",
+          "request_id": "8ea2b3303ab1899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "582fefac-1f45-44ea-a982-14620adb7f3e",
+      "children": ["4d03727d-88e3-4cef-af3a-480cd7f6405e"]
+    },
+    "4d03727d-88e3-4cef-af3a-480cd7f6405e": {
+      "id": "4d03727d-88e3-4cef-af3a-480cd7f6405e",
+      "message": {
+        "id": "4d03727d-88e3-4cef-af3a-480cd7f6405e",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884396.998703,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08",
+          "request_id": "8ea2b3303ab1899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "83ef5b9c-0482-4bec-9fb2-8b0b0e2a8c08",
+      "children": ["e32577fc-1ba6-4b05-94c2-58cb97becb9e"]
+    },
+    "e32577fc-1ba6-4b05-94c2-58cb97becb9e": {
+      "id": "e32577fc-1ba6-4b05-94c2-58cb97becb9e",
+      "message": {
+        "id": "e32577fc-1ba6-4b05-94c2-58cb97becb9e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884396.974854,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh distinctly colored and a marker placed at the approximate location of Indore. Let me know if you need any refinements!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4d03727d-88e3-4cef-af3a-480cd7f6405e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "request_id": "8ea2b3303ab1899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4d03727d-88e3-4cef-af3a-480cd7f6405e",
+      "children": ["aaa28566-e424-45a0-a973-5cc943bfbbb2"]
+    },
+    "aaa28566-e424-45a0-a973-5cc943bfbbb2": {
+      "id": "aaa28566-e424-45a0-a973-5cc943bfbbb2",
+      "message": {
+        "id": "aaa28566-e424-45a0-a973-5cc943bfbbb2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884414.332,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Khargone. Avoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b4008b22899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e32577fc-1ba6-4b05-94c2-58cb97becb9e",
+      "children": ["00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0"]
+    },
+    "00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0": {
+      "id": "00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0",
+      "message": {
+        "id": "00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884414.039998,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map contains no labels or text, focusing only on geographical shapes and a minimalist design with basic colors to highlight Madhya Pradesh from the rest of India.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7804713820.116457,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa28566-e424-45a0-a973-5cc943bfbbb2",
+          "request_id": "8ea2b4008b22899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa28566-e424-45a0-a973-5cc943bfbbb2",
+      "children": ["9498cbd5-a2aa-4c42-9d48-4ea421dad19d"]
+    },
+    "9498cbd5-a2aa-4c42-9d48-4ea421dad19d": {
+      "id": "9498cbd5-a2aa-4c42-9d48-4ea421dad19d",
+      "message": {
+        "id": "9498cbd5-a2aa-4c42-9d48-4ea421dad19d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884425.994402,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-VVtXHT3oTsQmX9GmCDgft7",
+              "size_bytes": 199302,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "TLZle3kECuUcwjcQ",
+                  "prompt": "A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map contains no labels or text, focusing only on geographical shapes and a minimalist design with basic colors to highlight Madhya Pradesh from the rest of India.",
+                  "seed": 764912988,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0",
+          "request_id": "8ea2b4008b22899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "00ae0dde-7aa8-4d4c-bdbd-4ce44c05f9c0",
+      "children": ["555a4ab1-80b6-4cb5-ae48-236954afa84a"]
+    },
+    "555a4ab1-80b6-4cb5-ae48-236954afa84a": {
+      "id": "555a4ab1-80b6-4cb5-ae48-236954afa84a",
+      "message": {
+        "id": "555a4ab1-80b6-4cb5-ae48-236954afa84a",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884425.994483,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9498cbd5-a2aa-4c42-9d48-4ea421dad19d",
+          "request_id": "8ea2b4008b22899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9498cbd5-a2aa-4c42-9d48-4ea421dad19d",
+      "children": ["21050404-10e1-409c-ac23-9ff904b3d371"]
+    },
+    "21050404-10e1-409c-ac23-9ff904b3d371": {
+      "id": "21050404-10e1-409c-ac23-9ff904b3d371",
+      "message": {
+        "id": "21050404-10e1-409c-ac23-9ff904b3d371",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884425.905192,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh distinctly colored and a marker placed at the approximate location of Khargone. Let me know if any adjustments are needed!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "555a4ab1-80b6-4cb5-ae48-236954afa84a",
+          "request_id": "8ea2b4008b22899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "555a4ab1-80b6-4cb5-ae48-236954afa84a",
+      "children": ["aaa2baf7-0c35-4653-b84c-96833f3ae7bb"]
+    },
+    "aaa2baf7-0c35-4653-b84c-96833f3ae7bb": {
+      "id": "aaa2baf7-0c35-4653-b84c-96833f3ae7bb",
+      "message": {
+        "id": "aaa2baf7-0c35-4653-b84c-96833f3ae7bb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884440.175,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Khargone. Avoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b4a21f91899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "21050404-10e1-409c-ac23-9ff904b3d371",
+      "children": ["254084f2-ebd9-46f4-a4fe-31905243deda"]
+    },
+    "254084f2-ebd9-46f4-a4fe-31905243deda": {
+      "id": "254084f2-ebd9-46f4-a4fe-31905243deda",
+      "message": {
+        "id": "254084f2-ebd9-46f4-a4fe-31905243deda",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884439.744147,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist, showing only geographical shapes with basic colors to highlight Madhya Pradesh from the rest of India, and no text or labels.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7807623462.999566,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2baf7-0c35-4653-b84c-96833f3ae7bb",
+          "request_id": "8ea2b4a21f91899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2baf7-0c35-4653-b84c-96833f3ae7bb",
+      "children": ["c920c2c3-7b57-47a4-89d8-3a75c3e8cea1"]
+    },
+    "c920c2c3-7b57-47a4-89d8-3a75c3e8cea1": {
+      "id": "c920c2c3-7b57-47a4-89d8-3a75c3e8cea1",
+      "message": {
+        "id": "c920c2c3-7b57-47a4-89d8-3a75c3e8cea1",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884449.339828,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-MBkTroK7VpdFiphyr7sUTd",
+              "size_bytes": 139620,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "zVzWA9ByeAf2b3n2",
+                  "prompt": "A simplified map of India with Madhya Pradesh state distinctly colored. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist, showing only geographical shapes with basic colors to highlight Madhya Pradesh from the rest of India, and no text or labels.",
+                  "seed": 2216680052,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "254084f2-ebd9-46f4-a4fe-31905243deda",
+          "request_id": "8ea2b4a21f91899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "254084f2-ebd9-46f4-a4fe-31905243deda",
+      "children": ["097a9224-5da0-495d-8b73-34ca7e77d961"]
+    },
+    "097a9224-5da0-495d-8b73-34ca7e77d961": {
+      "id": "097a9224-5da0-495d-8b73-34ca7e77d961",
+      "message": {
+        "id": "097a9224-5da0-495d-8b73-34ca7e77d961",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884449.3399,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c920c2c3-7b57-47a4-89d8-3a75c3e8cea1",
+          "request_id": "8ea2b4a21f91899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c920c2c3-7b57-47a4-89d8-3a75c3e8cea1",
+      "children": ["b4b5b823-8f96-4ef9-94d1-ecee39d1f9e6"]
+    },
+    "b4b5b823-8f96-4ef9-94d1-ecee39d1f9e6": {
+      "id": "b4b5b823-8f96-4ef9-94d1-ecee39d1f9e6",
+      "message": {
+        "id": "b4b5b823-8f96-4ef9-94d1-ecee39d1f9e6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884447.580525,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh distinctly colored and a marker placed at the approximate location of Khargone. Let me know if you need any changes!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "097a9224-5da0-495d-8b73-34ca7e77d961",
+          "request_id": "8ea2b4a21f91899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "097a9224-5da0-495d-8b73-34ca7e77d961",
+      "children": ["aaa2dda8-335e-40f7-8fd6-dbae34d9b219"]
+    },
+    "aaa2dda8-335e-40f7-8fd6-dbae34d9b219": {
+      "id": "aaa2dda8-335e-40f7-8fd6-dbae34d9b219",
+      "message": {
+        "id": "aaa2dda8-335e-40f7-8fd6-dbae34d9b219",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884487.965,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Khargone. Avoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b5ccccd6899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b4b5b823-8f96-4ef9-94d1-ecee39d1f9e6",
+      "children": ["3c5df980-959f-45e4-b81d-464515db78c4"]
+    },
+    "3c5df980-959f-45e4-b81d-464515db78c4": {
+      "id": "3c5df980-959f-45e4-b81d-464515db78c4",
+      "message": {
+        "id": "3c5df980-959f-45e4-b81d-464515db78c4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884487.639727,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A detailed and simplified map of India, highlighting Madhya Pradesh with a distinct color. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist and contains no text or labels, focusing solely on geographical shapes with clear distinctions.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7804820615.940867,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2dda8-335e-40f7-8fd6-dbae34d9b219",
+          "request_id": "8ea2b5ccccd6899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2dda8-335e-40f7-8fd6-dbae34d9b219",
+      "children": ["90b9932f-e3b4-4511-8111-4597c9df9252"]
+    },
+    "90b9932f-e3b4-4511-8111-4597c9df9252": {
+      "id": "90b9932f-e3b4-4511-8111-4597c9df9252",
+      "message": {
+        "id": "90b9932f-e3b4-4511-8111-4597c9df9252",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884499.594292,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-9NpXjUc4GHpivqLNrZyfGp",
+              "size_bytes": 202546,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "1UuHVc0lDZLS7SzN",
+                  "prompt": "A detailed and simplified map of India, highlighting Madhya Pradesh with a distinct color. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist and contains no text or labels, focusing solely on geographical shapes with clear distinctions.",
+                  "seed": 3434109380,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3c5df980-959f-45e4-b81d-464515db78c4",
+          "request_id": "8ea2b5ccccd6899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c5df980-959f-45e4-b81d-464515db78c4",
+      "children": ["a5051ead-5e20-465d-acf7-111ed3528d10"]
+    },
+    "a5051ead-5e20-465d-acf7-111ed3528d10": {
+      "id": "a5051ead-5e20-465d-acf7-111ed3528d10",
+      "message": {
+        "id": "a5051ead-5e20-465d-acf7-111ed3528d10",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884499.594383,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "90b9932f-e3b4-4511-8111-4597c9df9252",
+          "request_id": "8ea2b5ccccd6899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90b9932f-e3b4-4511-8111-4597c9df9252",
+      "children": ["8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5"]
+    },
+    "8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5": {
+      "id": "8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5",
+      "message": {
+        "id": "8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884499.411782,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh highlighted and a marker placed at the approximate location of Khargone. Let me know if any modifications are needed!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a5051ead-5e20-465d-acf7-111ed3528d10",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "request_id": "8ea2b5ccccd6899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5051ead-5e20-465d-acf7-111ed3528d10",
+      "children": [
+        "aaa2a8da-7ff9-4f9b-994c-91e0183a4920",
+        "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1"
+      ]
+    },
+    "aaa2a8da-7ff9-4f9b-994c-91e0183a4920": {
+      "id": "aaa2a8da-7ff9-4f9b-994c-91e0183a4920",
+      "message": {
+        "id": "aaa2a8da-7ff9-4f9b-994c-91e0183a4920",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884508.419,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Khargone. OtAvoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ea2b64c9882899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5",
+      "children": ["54719e72-b8ff-4bc4-a325-608017a14bb1"]
+    },
+    "54719e72-b8ff-4bc4-a325-608017a14bb1": {
+      "id": "54719e72-b8ff-4bc4-a325-608017a14bb1",
+      "message": {
+        "id": "54719e72-b8ff-4bc4-a325-608017a14bb1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884508.140638,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state highlighted in a distinct color. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist and avoids labels or text, focusing purely on geographical outlines and distinctions.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7816176978.940934,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2a8da-7ff9-4f9b-994c-91e0183a4920",
+          "request_id": "8ea2b64c9882899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2a8da-7ff9-4f9b-994c-91e0183a4920",
+      "children": ["f818416f-21b4-4be0-ab6e-855e556d2184"]
+    },
+    "f818416f-21b4-4be0-ab6e-855e556d2184": {
+      "id": "f818416f-21b4-4be0-ab6e-855e556d2184",
+      "message": {
+        "id": "f818416f-21b4-4be0-ab6e-855e556d2184",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884526.976093,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-XthUnw2DmPbuheLxk75G2G",
+              "size_bytes": 155754,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "n1oz80BBguV5Lxhb",
+                  "prompt": "A simplified map of India with Madhya Pradesh state highlighted in a distinct color. A small marker is placed at the approximate location of Khargone within Madhya Pradesh. The map is minimalist and avoids labels or text, focusing purely on geographical outlines and distinctions.",
+                  "seed": 3846616791,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "54719e72-b8ff-4bc4-a325-608017a14bb1",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "request_id": "8ea2b64c9882899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "54719e72-b8ff-4bc4-a325-608017a14bb1",
+      "children": []
+    },
+    "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1": {
+      "id": "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1",
+      "message": {
+        "id": "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884529.724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Draw a map of India. Color Madhya Pradesh State. Add a marker at Khargone, which is west of Nagpur. Avoid labels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ea2b6d1b923899a-SIN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8a1b492e-2edc-4e8e-a796-ac7e49dfe1a5",
+      "children": ["0176e6c3-778a-4736-b7b8-476fd57e2ce1"]
+    },
+    "0176e6c3-778a-4736-b7b8-476fd57e2ce1": {
+      "id": "0176e6c3-778a-4736-b7b8-476fd57e2ce1",
+      "message": {
+        "id": "0176e6c3-778a-4736-b7b8-476fd57e2ce1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884529.303462,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A simplified map of India with Madhya Pradesh state distinctly colored. Within Madhya Pradesh, a small marker is placed to the west of Nagpur, approximately indicating the location of Khargone. The design is minimalist, focusing on geographical shapes with basic colors to highlight Madhya Pradesh and no text or labels.\",\n  \"size\": \"1024x1024\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200007]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 7804799423.71342,
+            "search_prob": 0.0
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1",
+          "request_id": "8ea2b6d1b923899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa21ebb-4ef9-469c-a75e-e467b6d51ae1",
+      "children": ["c126530f-f487-4555-86b9-abe65de5c942"]
+    },
+    "c126530f-f487-4555-86b9-abe65de5c942": {
+      "id": "c126530f-f487-4555-86b9-abe65de5c942",
+      "message": {
+        "id": "c126530f-f487-4555-86b9-abe65de5c942",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884539.479433,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-TGhKygaxp3QsERbrSrUtDY",
+              "size_bytes": 134356,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "OgPJgjrVMpQsPToK",
+                  "prompt": "A simplified map of India with Madhya Pradesh state distinctly colored. Within Madhya Pradesh, a small marker is placed to the west of Nagpur, approximately indicating the location of Khargone. The design is minimalist, focusing on geographical shapes with basic colors to highlight Madhya Pradesh and no text or labels.",
+                  "seed": 2688570491,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": false
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0176e6c3-778a-4736-b7b8-476fd57e2ce1",
+          "request_id": "8ea2b6d1b923899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0176e6c3-778a-4736-b7b8-476fd57e2ce1",
+      "children": ["652b444f-ad5c-4fc7-98c5-1c9dd23dbe11"]
+    },
+    "652b444f-ad5c-4fc7-98c5-1c9dd23dbe11": {
+      "id": "652b444f-ad5c-4fc7-98c5-1c9dd23dbe11",
+      "message": {
+        "id": "652b444f-ad5c-4fc7-98c5-1c9dd23dbe11",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1732884539.479509,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c126530f-f487-4555-86b9-abe65de5c942",
+          "request_id": "8ea2b6d1b923899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c126530f-f487-4555-86b9-abe65de5c942",
+      "children": ["ad3e264f-fb8d-4e3d-9390-cd8b521dbdb8"]
+    },
+    "ad3e264f-fb8d-4e3d-9390-cd8b521dbdb8": {
+      "id": "ad3e264f-fb8d-4e3d-9390-cd8b521dbdb8",
+      "message": {
+        "id": "ad3e264f-fb8d-4e3d-9390-cd8b521dbdb8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1732884537.501302,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the map of India with Madhya Pradesh highlighted and a marker placed west of Nagpur to approximate the location of Khargone. Let me know if you have further requests!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [200002]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "652b444f-ad5c-4fc7-98c5-1c9dd23dbe11",
+          "request_id": "8ea2b6d1b923899a-SIN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "652b444f-ad5c-4fc7-98c5-1c9dd23dbe11",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ad3e264f-fb8d-4e3d-9390-cd8b521dbdb8",
+  "plugin_ids": null,
+  "conversation_id": "6749b712-5fdc-800c-a345-de5912025406",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "id": "6749b712-5fdc-800c-a345-de5912025406"
+}

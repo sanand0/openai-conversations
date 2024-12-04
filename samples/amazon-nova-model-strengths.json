@@ -1,0 +1,1225 @@
+{
+  "title": "Amazon Nova Model Strengths",
+  "create_time": 1733294339.556244,
+  "update_time": 1733294347.616038,
+  "mapping": {
+    "aaa148b2-bc0e-40df-acd4-80cb0d4931dc": {
+      "id": "aaa148b2-bc0e-40df-acd4-80cb0d4931dc",
+      "message": null,
+      "parent": null,
+      "children": ["c3a067d8-46c0-4a85-8e16-6a466dff4965"]
+    },
+    "c3a067d8-46c0-4a85-8e16-6a466dff4965": {
+      "id": "c3a067d8-46c0-4a85-8e16-6a466dff4965",
+      "message": {
+        "id": "c3a067d8-46c0-4a85-8e16-6a466dff4965",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa148b2-bc0e-40df-acd4-80cb0d4931dc",
+      "children": ["73d38e23-45cc-41cf-90bc-04a9b95f1690"]
+    },
+    "73d38e23-45cc-41cf-90bc-04a9b95f1690": {
+      "id": "73d38e23-45cc-41cf-90bc-04a9b95f1690",
+      "message": {
+        "id": "73d38e23-45cc-41cf-90bc-04a9b95f1690",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\"```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_model_message": "Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\""
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3a067d8-46c0-4a85-8e16-6a466dff4965",
+      "children": ["aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a"]
+    },
+    "aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a": {
+      "id": "aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a",
+      "message": {
+        "id": "aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733294339.572132,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What are people saying about the unique strengths of the Amazon Bedrock Nova models?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "system_hints": ["search"],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ec9cbf07eb08013-MAA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "73d38e23-45cc-41cf-90bc-04a9b95f1690",
+      "children": ["a9279ba6-9e80-4aad-a8dc-0491529c9b89"]
+    },
+    "a9279ba6-9e80-4aad-a8dc-0491529c9b89": {
+      "id": "a9279ba6-9e80-4aad-a8dc-0491529c9b89",
+      "message": {
+        "id": "a9279ba6-9e80-4aad-a8dc-0491529c9b89",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733294346.305186,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a",
+          "request_id": "8ec9cbf07eb08013-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2ca2a-ef54-4f8a-b7a7-4c02d8b9800a",
+      "children": ["fe8fe67a-64b1-4cf2-babb-a34603d8827a"]
+    },
+    "fe8fe67a-64b1-4cf2-babb-a34603d8827a": {
+      "id": "fe8fe67a-64b1-4cf2-babb-a34603d8827a",
+      "message": {
+        "id": "fe8fe67a-64b1-4cf2-babb-a34603d8827a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733294346.305318,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"What are people saying about the unique strengths of the Amazon Bedrock Nova models?\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "sonic_classification_result": {
+            "latency_ms": null,
+            "search_prob": null
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a9279ba6-9e80-4aad-a8dc-0491529c9b89",
+          "request_id": "8ec9cbf07eb08013-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "a9279ba6-9e80-4aad-a8dc-0491529c9b89",
+      "children": ["4752a640-bbee-439f-9677-7f0088de89da"]
+    },
+    "4752a640-bbee-439f-9677-7f0088de89da": {
+      "id": "4752a640-bbee-439f-9677-7f0088de89da",
+      "message": {
+        "id": "4752a640-bbee-439f-9677-7f0088de89da",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1733294346.305398,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fe8fe67a-64b1-4cf2-babb-a34603d8827a",
+          "request_id": "8ec9cbf07eb08013-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "fe8fe67a-64b1-4cf2-babb-a34603d8827a",
+      "children": ["80d7198d-8c71-47a5-9d53-b642cf09cfca"]
+    },
+    "80d7198d-8c71-47a5-9d53-b642cf09cfca": {
+      "id": "80d7198d-8c71-47a5-9d53-b642cf09cfca",
+      "message": {
+        "id": "80d7198d-8c71-47a5-9d53-b642cf09cfca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1733294346.305469,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\ue203Amazon's Nova models, integrated into AWS's Bedrock, offer a range of capabilities:\ue204\n\n- **Amazon Nova Micro**: \ue203A text-only model optimized for speed and cost-efficiency.\ue204 \ue200cite\ue202turn0search3\ue201\n\n- **Amazon Nova Lite**: \ue203A multimodal model processing text, images, and videos, designed for low-cost operations.\ue204 \ue200cite\ue202turn0search3\ue201\n\n- **Amazon Nova Pro**: \ue203A multimodal model tailored for complex tasks, balancing performance and cost.\ue204 \ue200cite\ue202turn0search3\ue201\n\n- **Amazon Nova Premier**: \ue203Expected in early 2025, aimed at complex reasoning and advanced use cases.\ue204 \ue200cite\ue202turn0search3\ue201\n\n\ue203Additionally, Amazon introduced:\ue204\n\n- **Amazon Nova Canvas**: \ue203An image generation model with watermarking capabilities to promote responsible AI use.\ue204 \ue200cite\ue202turn0news26\ue201\n\n- **Amazon Nova Reel**: \ue203A video generation model, also featuring watermarking for responsible AI use.\ue204 \ue200cite\ue202turn0news26\ue201\n\n\ue203These models are designed to be fast, cost-effective, and easy to integrate with existing systems and data.\ue204 \ue200cite\ue202turn0search30\ue201\n\n\ue203Playing Devil's Advocate, one might question whether Amazon's Nova models truly offer superior performance and cost benefits compared to established AI models from competitors.\ue204\n\n\ue200navlist\ue202Amazon unveils Nova AI models\ue202turn0news26\ue201 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_search",
+          "client_reported_search_source": "conversation_composer_web_icon",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "amazon.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/blogs/machine-learning/integrate-foundation-models-into-your-code-with-amazon-bedrock/",
+                  "title": "Integrate foundation models into your code with Amazon Bedrock",
+                  "snippet": "Experiment with different models. Amazon Bedrock offers various FMs, each with its own strengths and capabilities. You can specify which model you want to use by passing the model_name parameter when...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1730851200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/foundation-models-reference.html",
+                  "title": "Amazon Bedrock foundation model information",
+                  "snippet": "For information about the foundation models that Amazon Bedrock supports, see Supported foundation models in Amazon Bedrock. You must request access to a model before you can use it. To use an FM with...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/blogs/aws/evaluate-compare-and-select-the-best-foundation-models-for-your-use-case-in-amazon-bedrock-preview/",
+                  "title": "Evaluate, compare, and select the best foundation models for your use ...",
+                  "snippet": "I\u2019m happy to share that you can now evaluate, compare, and select the best foundation models (FMs) for your use case in Amazon Bedrock. Model Evaluation on Amazon Bedrock is available today in preview...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "content_type": null,
+                  "pub_date": 1701216000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/bedrock/",
+                  "title": "Build Generative AI Applications with Foundation Models - Amazon ...",
+                  "snippet": "Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, a...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/blogs/machine-learning/new-capabilities-make-it-easier-to-use-amazon-bedrock-to-build-and-scale-generative-ai-applications-and-deliver-impact/",
+                  "title": "Significant new capabilities make it easier to use Amazon Bedrock to ...",
+                  "snippet": "We introduced Amazon Bedrock to the world a little over a year ago, delivering an entirely new way to build generative artificial intelligence (AI) applications. With the broadest selection of first-...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "content_type": null,
+                  "pub_date": 1713830400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/about-aws/whats-new/2023/11/evaluate-compare-select-fms-use-case-amazon-bedrock/",
+                  "title": "Evaluate, compare, and select the best FMs for your use case in Amazon ...",
+                  "snippet": "Model Evaluation on Amazon Bedrock allows you to evaluate, compare, and select the best foundation models for your use case. Amazon Bedrock offers a choice of automatic evaluation and human evaluation...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "content_type": null,
+                  "pub_date": 1701216000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/blogs/aws/amazon-bedrock-model-evaluation-is-now-generally-available/",
+                  "title": "Amazon Bedrock model evaluation is now generally available",
+                  "snippet": "The Amazon Bedrock model evaluation capability that we previewed at AWS re:Invent 2023 is now generally available. This new capability helps you to incorporate Generative AI into your application by g...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "content_type": null,
+                  "pub_date": 1713830400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/blogs/aws/amazon-bedrock-is-now-generally-available-build-and-scale-generative-ai-applications-with-foundation-models/",
+                  "title": "Amazon Bedrock Is Now Generally Available \u2013 Build and Scale Generative ...",
+                  "snippet": "Update October 10, 2023 \u2014 Amazon Bedrock is now available in 3 regions globally: US East (N. Virginia), US West (Oregon), and Asia Pacific (Tokyo). This April, we announced Amazon Bedrock as part of a...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "content_type": null,
+                  "pub_date": 1695859200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://docs.aws.amazon.com/managedservices/latest/onboardingguide/bedrock.html",
+                  "title": "Amazon Bedrock (AMS SSPS) - AMS Advanced Onboarding Guide",
+                  "snippet": "With Amazon Bedrock's serverless experience, you can get started quickly, privately customize foundation models with your own data, and easily and securely integrate and deploy them into your applicat...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "geekwire.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.geekwire.com/2024/amazon-unveils-nova-ai-models/",
+                  "title": "Amazon unveils \u2018Nova\u2019 AI models, looking to make its mark in the generative AI revolution",
+                  "snippet": "With Nova and other initiatives, Amazon is looking to use AI to build on its position in the cloud market. The company leads rivals Microsoft and Google in the cloud infrastructure market with 31% mar...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1733260140.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "smartcompany.com.au",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/",
+                  "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                  "snippet": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1733265900.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "businessinsider.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956",
+                  "title": "AWS introduces \u2018new generation of foundation models,\u2019 Amazon Nova",
+                  "snippet": "Invent, Amazon.com (AMZN) introduced Amazon Nova, which it calls \u201ca new generation of foundation models that have state-of-the-art",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": 1733250600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "gartner.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.gartner.com/reviews/market/generative-ai-model-providers/vendor/amazon-web-services/product/amazon-bedrock",
+                  "title": "Amazon Web Services (AWS) Amazon Bedrock Reviews, Ratings & Features ...",
+                  "snippet": "Related markets: in Generative AI Engineering (2 Reviews), in Cloud AI Developer Services (1 Review) Overview Reviews Likes and Dislikes Gartner Peer Insights content consists of the opinions of indiv...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.gartner.com/reviews/market/generative-ai-engineering/vendor/amazon-web-services/product/amazon-bedrock",
+                  "title": "Amazon Bedrock Reviews - Gartner",
+                  "snippet": "Amazon Bedrock is powerful tool for generating AI models and deploying it. The application has pre defined models in the libraries for easy development. The scalability of the platform is impressive w...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": 1730937600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "theneuron.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.theneuron.ai/tools/amazon-bedrock",
+                  "title": "Our Honest Review of Amazon Bedrock (2024) | The Neuron",
+                  "snippet": "Offers a catalog of foundation models, implements retrieval-augmented generation (RAG) and vector embeddings, hosts knowledge bases, implements fine-tuning of foundation models, and allows continued p...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "amazon.science",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.amazon.science/news-and-features/amazon-bedrock-offers-access-to-multiple-generative-ai-models",
+                  "title": "Amazon Bedrock offers access to multiple generative AI models",
+                  "snippet": "At Amazon, data security is so critical it is often referred to as \u201cjob zero\u201d. While Bedrock hosts a growing number of third-party models, those third-party companies never see any customer data. That...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": 1693180800.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "hands-on.cloud",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://hands-on.cloud/amazon-bedrock/",
+                  "title": "Ultimate Guide to Amazon Bedrock - Hands-On.Cloud",
+                  "snippet": "Foundation Models: Amazon Bedrock offers a selection of pre-trained models that can be fine-tuned for specific tasks with minimal data, reducing the time and resources required for model development....",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "content_type": null,
+                  "pub_date": 1700179200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "economize.cloud",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://blog.economize.cloud/aws-bedrock-foundation-models-list/",
+                  "title": "Which Foundation Models to Choose in AWS Bedrock? - Economize Cloud",
+                  "snippet": "Understanding Foundation Models in AWS Bedrock . Amazon Bedrock hosts a variety of foundation models, each with unique strengths and application domains. These include AI21 Labs\u2019 Jurassic, Anthropic\u2019s...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "content_type": null,
+                  "pub_date": 1702857600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "aboutamazon.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://press.aboutamazon.com/2023/11/aws-announces-more-model-choice-and-powerful-new-capabilities-in-amazon-bedrock-to-securely-build-and-scale-generative-ai-applications",
+                  "title": "AWS Announces More Model Choice and Powerful New Capabilities in Amazon ...",
+                  "snippet": "Knowledge Bases for Amazon Bedrock makes it even easier to build generative AI applications that use proprietary data to deliver customized, up-to-date responses. Customers have more options to custom...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "content_type": null,
+                  "pub_date": 1701216000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.aboutamazon.com/news/aws/amazon-bedrock-new-innovations-generative-ai-applications",
+                  "title": "Amazon Bedrock: New innovations for building generative AI applications",
+                  "snippet": "With Amazon Bedrock Custom Model Import, organizations can now import and access their own custom models as a fully managed Application Programming Interface (API) in Bedrock, giving them unprecedente...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "content_type": null,
+                  "pub_date": 1713830400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://press.aboutamazon.com/2023/7/aws-expands-amazon-bedrock-with-additional-foundation-models-new-model-provider-and-advanced-capability-to-help-customers-build-generative-ai-applications",
+                  "title": "AWS Expands Amazon Bedrock With Additional Foundation Models, New Model ...",
+                  "snippet": "NEW YORK--(BUSINESS WIRE)-- Amazon Web Services, Inc. (AWS), an Amazon.com, Inc. company (NASDAQ: AMZN), today at AWS Summit New York announced the expansion of its fully managed foundation model (FM)...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "content_type": null,
+                  "pub_date": 1690329600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://press.aboutamazon.com/2024/4/amazon-bedrock-launches-new-capabilities-as-tens-of-thousands-of-customers-choose-it-as-the-foundation-to-build-and-scale-secure-generative-ai-applications",
+                  "title": "Amazon Bedrock Launches New Capabilities as Tens of Thousands of ...",
+                  "snippet": "Exclusive to Amazon Bedrock, Amazon Titan models are created and pre-trained by AWS on large and diverse datasets for a variety of use cases, with built-in support for the responsible use of AI. Today...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "content_type": null,
+                  "pub_date": 1713830400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cloudnature.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://cloudnature.net/blog/the-complete-guide-to-amazon-bedrock-for-generative-ai",
+                  "title": "The Complete Guide to Amazon Bedrock for Generative AI",
+                  "snippet": "Model fine-tuning - Create a training dataset and fine-tune an Amazon Bedrock model; Agents - Although still in preview, agents can execute complex tasks by dynamically invoking APIs. Amazon Bedrock c...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "content_type": null,
+                  "pub_date": 1696377600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4752a640-bbee-439f-9677-7f0088de89da",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "\ue203",
+              "start_idx": 0,
+              "end_idx": 1,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 84,
+              "end_idx": 85,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 112,
+              "end_idx": 113,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 171,
+              "end_idx": 172,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search3\ue201",
+              "start_idx": 173,
+              "end_idx": 192,
+              "alt": "([SmartCompany](https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+              "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+              "pub_date": 1733265900.0,
+              "snippet": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "SmartCompany"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 218,
+              "end_idx": 219,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 308,
+              "end_idx": 309,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search3\ue201",
+              "start_idx": 310,
+              "end_idx": 329,
+              "alt": "([SmartCompany](https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+              "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+              "pub_date": 1733265900.0,
+              "snippet": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "SmartCompany"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 354,
+              "end_idx": 355,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 433,
+              "end_idx": 434,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search3\ue201",
+              "start_idx": 435,
+              "end_idx": 454,
+              "alt": "([SmartCompany](https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+              "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+              "pub_date": 1733265900.0,
+              "snippet": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "SmartCompany"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 483,
+              "end_idx": 484,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 558,
+              "end_idx": 559,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search3\ue201",
+              "start_idx": 560,
+              "end_idx": 579,
+              "alt": "([SmartCompany](https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+              "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+              "pub_date": 1733265900.0,
+              "snippet": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "SmartCompany"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 581,
+              "end_idx": 582,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 614,
+              "end_idx": 615,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 643,
+              "end_idx": 644,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 731,
+              "end_idx": 732,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0news26\ue201",
+              "start_idx": 733,
+              "end_idx": 751,
+              "alt": "([The Verge](https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon announces its own set of Nova AI models",
+              "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+              "pub_date": 1733254718.0,
+              "snippet": "Amazon has unveiled a new series of AI foundation models under the \"Nova\" brand, which will be part of the Amazon Bedrock model library in AWS. The models include three \"understanding\" models: Nova Micro, Nova Lite, and Nova Pro, with an upcoming Nova Premier model set for release in early 2025. Additionally, Amazon introduced content generation models such as Nova Canvas for image generation and Nova Reel for video generation, both featuring watermarking capabilities. At the AWS re:Invent conference, Amazon announced plans for future models, including a speech-to-speech model and a \"native multimodal-to-multimodal\" model. The company is also building the world's largest AI compute cluster in partnership with Anthropic, leveraging Amazon's Trainium 2 chips. This expansion aims to compete with AI advancements from companies like OpenAI, with Amazon's existing infrastructure providing a potential advantage for enterprise adoption. Furthermore, Amazon is developing a revamped AI-powered Alexa, with its launch now anticipated next year.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "The Verge"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 777,
+              "end_idx": 778,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 855,
+              "end_idx": 856,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0news26\ue201",
+              "start_idx": 857,
+              "end_idx": 875,
+              "alt": "([The Verge](https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Amazon announces its own set of Nova AI models",
+              "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+              "pub_date": 1733254718.0,
+              "snippet": "Amazon has unveiled a new series of AI foundation models under the \"Nova\" brand, which will be part of the Amazon Bedrock model library in AWS. The models include three \"understanding\" models: Nova Micro, Nova Lite, and Nova Pro, with an upcoming Nova Premier model set for release in early 2025. Additionally, Amazon introduced content generation models such as Nova Canvas for image generation and Nova Reel for video generation, both featuring watermarking capabilities. At the AWS re:Invent conference, Amazon announced plans for future models, including a speech-to-speech model and a \"native multimodal-to-multimodal\" model. The company is also building the world's largest AI compute cluster in partnership with Anthropic, leveraging Amazon's Trainium 2 chips. This expansion aims to compete with AI advancements from companies like OpenAI, with Amazon's existing infrastructure providing a potential advantage for enterprise adoption. Furthermore, Amazon is developing a revamped AI-powered Alexa, with its launch now anticipated next year.",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "The Verge"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 877,
+              "end_idx": 878,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 985,
+              "end_idx": 986,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search30\ue201",
+              "start_idx": 987,
+              "end_idx": 1007,
+              "alt": "([Business Insider Markets](https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "AWS introduces \u2018new generation of foundation models,\u2019 Amazon Nova",
+              "url": "https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956?utm_source=chatgpt.com",
+              "pub_date": 1733250600.0,
+              "snippet": "Invent, Amazon.com (AMZN) introduced Amazon Nova, which it calls \u201ca new generation of foundation models that have state-of-the-art",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Business Insider Markets"
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1009,
+              "end_idx": 1010,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1186,
+              "end_idx": 1187,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200navlist\ue202Amazon unveils Nova AI models\ue202turn0news26\ue201",
+              "start_idx": 1189,
+              "end_idx": 1240,
+              "alt": "- [The Verge](https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com)",
+              "prompt_text": null,
+              "type": "nav_list",
+              "title": "Amazon unveils Nova AI models",
+              "items": [
+                {
+                  "title": "Amazon announces its own set of Nova AI models",
+                  "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+                  "thumbnail_url": null,
+                  "pub_date": 1733254718.0,
+                  "attribution": "The Verge"
+                }
+              ]
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1240,
+              "end_idx": 1240,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                  "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+                  "attribution": "SmartCompany"
+                },
+                {
+                  "title": "Amazon announces its own set of Nova AI models",
+                  "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+                  "attribution": "The Verge"
+                },
+                {
+                  "title": "AWS introduces \u2018new generation of foundation models,\u2019 Amazon Nova",
+                  "url": "https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956?utm_source=chatgpt.com",
+                  "attribution": "Business Insider Markets"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 84,
+              "end_ix": 85,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 112,
+              "end_ix": 113,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 171,
+              "end_ix": 172,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 173,
+              "end_ix": 192,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+                "text": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+                "pub_date": "2024-12-03T22:45:00+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 218,
+              "end_ix": 219,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 308,
+              "end_ix": 309,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 310,
+              "end_ix": 329,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+                "text": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+                "pub_date": "2024-12-03T22:45:00+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 354,
+              "end_ix": 355,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 433,
+              "end_ix": 434,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 435,
+              "end_ix": 454,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+                "text": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+                "pub_date": "2024-12-03T22:45:00+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 483,
+              "end_ix": 484,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 558,
+              "end_ix": 559,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 560,
+              "end_ix": 579,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon Nova: AWS now has multi-modal AI models for businesses",
+                "url": "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+                "text": "AWS has announced Amazon Nova: a suite of multi-modal AI models for enterprise customers ranging for text-only to video and beyond.",
+                "pub_date": "2024-12-03T22:45:00+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 581,
+              "end_ix": 582,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 614,
+              "end_ix": 615,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 643,
+              "end_ix": 644,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 731,
+              "end_ix": 732,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 733,
+              "end_ix": 751,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon announces its own set of Nova AI models",
+                "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+                "text": "Amazon has unveiled a new series of AI foundation models under the \"Nova\" brand, which will be part of the Amazon Bedrock model library in AWS. The models include three \"understanding\" models: Nova Micro, Nova Lite, and Nova Pro, with an upcoming Nova Premier model set for release in early 2025. Additionally, Amazon introduced content generation models such as Nova Canvas for image generation and Nova Reel for video generation, both featuring watermarking capabilities. At the AWS re:Invent conference, Amazon announced plans for future models, including a speech-to-speech model and a \"native multimodal-to-multimodal\" model. The company is also building the world's largest AI compute cluster in partnership with Anthropic, leveraging Amazon's Trainium 2 chips. This expansion aims to compete with AI advancements from companies like OpenAI, with Amazon's existing infrastructure providing a potential advantage for enterprise adoption. Furthermore, Amazon is developing a revamped AI-powered Alexa, with its launch now anticipated next year.",
+                "pub_date": "2024-12-03T19:38:38+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 777,
+              "end_ix": 778,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 855,
+              "end_ix": 856,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 857,
+              "end_ix": 875,
+              "metadata": {
+                "type": "webpage",
+                "title": "Amazon announces its own set of Nova AI models",
+                "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com",
+                "text": "Amazon has unveiled a new series of AI foundation models under the \"Nova\" brand, which will be part of the Amazon Bedrock model library in AWS. The models include three \"understanding\" models: Nova Micro, Nova Lite, and Nova Pro, with an upcoming Nova Premier model set for release in early 2025. Additionally, Amazon introduced content generation models such as Nova Canvas for image generation and Nova Reel for video generation, both featuring watermarking capabilities. At the AWS re:Invent conference, Amazon announced plans for future models, including a speech-to-speech model and a \"native multimodal-to-multimodal\" model. The company is also building the world's largest AI compute cluster in partnership with Anthropic, leveraging Amazon's Trainium 2 chips. This expansion aims to compete with AI advancements from companies like OpenAI, with Amazon's existing infrastructure providing a potential advantage for enterprise adoption. Furthermore, Amazon is developing a revamped AI-powered Alexa, with its launch now anticipated next year.",
+                "pub_date": "2024-12-03T19:38:38+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 877,
+              "end_ix": 878,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 985,
+              "end_ix": 986,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 987,
+              "end_ix": 1007,
+              "metadata": {
+                "type": "webpage",
+                "title": "AWS introduces \u2018new generation of foundation models,\u2019 Amazon Nova",
+                "url": "https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956?utm_source=chatgpt.com",
+                "text": "Invent, Amazon.com (AMZN) introduced Amazon Nova, which it calls \u201ca new generation of foundation models that have state-of-the-art",
+                "pub_date": "2024-12-03T18:30:00+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 1009,
+              "end_ix": 1010,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1186,
+              "end_ix": 1187,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1189,
+              "end_ix": 1240,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1240,
+              "end_ix": 1240,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8ec9cbf07eb08013-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4752a640-bbee-439f-9677-7f0088de89da",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "80d7198d-8c71-47a5-9d53-b642cf09cfca",
+  "plugin_ids": null,
+  "conversation_id": "674ff902-f07c-800c-b04d-988c5d4d1778",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://markets.businessinsider.com/news/stocks/aws-introduces-new-generation-of-foundation-models-amazon-nova-1034093956?utm_source=chatgpt.com",
+    "https://www.smartcompany.com.au/artificial-intelligence/amazon-nova-aws-multi-modal-ai-models-businesses/?utm_source=chatgpt.com",
+    "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic?utm_source=chatgpt.com"
+  ],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "id": "674ff902-f07c-800c-b04d-988c5d4d1778"
+}

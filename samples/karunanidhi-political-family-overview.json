@@ -1,0 +1,1584 @@
+{
+  "title": "Karunanidhi Political Family Overview",
+  "create_time": 1733282032.872406,
+  "update_time": 1733282050.581291,
+  "mapping": {
+    "bbb23f0e-f3c9-467a-be0c-72a54fe6d8bf": {
+      "id": "bbb23f0e-f3c9-467a-be0c-72a54fe6d8bf",
+      "message": null,
+      "parent": null,
+      "children": ["b2274179-12ff-47ac-b397-4d3bd57420dc"]
+    },
+    "b2274179-12ff-47ac-b397-4d3bd57420dc": {
+      "id": "b2274179-12ff-47ac-b397-4d3bd57420dc",
+      "message": {
+        "id": "b2274179-12ff-47ac-b397-4d3bd57420dc",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23f0e-f3c9-467a-be0c-72a54fe6d8bf",
+      "children": ["57e34bf2-276d-46f3-adc7-ee5b20c57039"]
+    },
+    "57e34bf2-276d-46f3-adc7-ee5b20c57039": {
+      "id": "57e34bf2-276d-46f3-adc7-ee5b20c57039",
+      "message": {
+        "id": "57e34bf2-276d-46f3-adc7-ee5b20c57039",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\"```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_model_message": "Be terse. Speak directly.\nBe thorough for open-ended or complex questions.\nAvoid unprompted advice or clarifications.\nNever apologize.\nWhen unsure, say so and ask questions.\nFor vague prompts, ask clarifying question(s).\nThink step by step.\nWhen reasoning or predicting, you MUST add more steps.\nDo NOT hedge or qualify. Do not waffle.\nUse dry humor.\nWhen sharing multiple options, be diverse.\nWhen comparing, use multiple perspectives.\nSuggest follow-up prompts for open-ended inputs.\nPlay Devil's advocate to the user, beginning with \"Playing Devil's Advocate, ...\""
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b2274179-12ff-47ac-b397-4d3bd57420dc",
+      "children": ["bbb211a6-012a-46cb-9993-e9b7a12cce07"]
+    },
+    "bbb211a6-012a-46cb-9993-e9b7a12cce07": {
+      "id": "bbb211a6-012a-46cb-9993-e9b7a12cce07",
+      "message": {
+        "id": "bbb211a6-012a-46cb-9993-e9b7a12cce07",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733282032.880936,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Who are part of the Karunanidhi political family? How are they related? What is their bio and what positions do they currently hold?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ec89f7f7de47f9f-MAA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "57e34bf2-276d-46f3-adc7-ee5b20c57039",
+      "children": ["f59e4920-54a8-4b1d-8ab0-9b243238e44d"]
+    },
+    "f59e4920-54a8-4b1d-8ab0-9b243238e44d": {
+      "id": "f59e4920-54a8-4b1d-8ab0-9b243238e44d",
+      "message": {
+        "id": "f59e4920-54a8-4b1d-8ab0-9b243238e44d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733282049.343451,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb211a6-012a-46cb-9993-e9b7a12cce07",
+          "request_id": "8ec89f7f7de47f9f-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211a6-012a-46cb-9993-e9b7a12cce07",
+      "children": ["206a8154-dc71-4f8b-8b4d-305d7ba033de"]
+    },
+    "206a8154-dc71-4f8b-8b4d-305d7ba033de": {
+      "id": "206a8154-dc71-4f8b-8b4d-305d7ba033de",
+      "message": {
+        "id": "206a8154-dc71-4f8b-8b4d-305d7ba033de",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733282049.343564,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Who are part of the Karunanidhi political family? How are they related? What is their bio and what positions do they currently hold?\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "sonic_classification_result": {
+            "latency_ms": 941444438.453728,
+            "search_prob": 0.8533792143517589
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f59e4920-54a8-4b1d-8ab0-9b243238e44d",
+          "request_id": "8ec89f7f7de47f9f-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "f59e4920-54a8-4b1d-8ab0-9b243238e44d",
+      "children": ["259f2534-98ed-4e52-a92b-16e554d8061e"]
+    },
+    "259f2534-98ed-4e52-a92b-16e554d8061e": {
+      "id": "259f2534-98ed-4e52-a92b-16e554d8061e",
+      "message": {
+        "id": "259f2534-98ed-4e52-a92b-16e554d8061e",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1733282049.343631,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "206a8154-dc71-4f8b-8b4d-305d7ba033de",
+          "request_id": "8ec89f7f7de47f9f-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "206a8154-dc71-4f8b-8b4d-305d7ba033de",
+      "children": ["3744e19e-455e-44b8-ad27-49d4f60ca267"]
+    },
+    "3744e19e-455e-44b8-ad27-49d4f60ca267": {
+      "id": "3744e19e-455e-44b8-ad27-49d4f60ca267",
+      "message": {
+        "id": "3744e19e-455e-44b8-ad27-49d4f60ca267",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1733282049.343694,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\ue200i\ue202turn0image2\ue201\ue203The Karunanidhi family has significantly influenced Tamil Nadu's politics and cinema.\ue204 \ue203M. Karunanidhi, the patriarch, served as the state's Chief Minister five times and led the Dravida Munnetra Kazhagam (DMK) party from 1969 until his death in 2018.\ue204\n\n**Family Members and Relationships:**\n\n- **M. Karunanidhi** (1924\u20132018): \ue203Former Chief Minister of Tamil Nadu and DMK leader.\ue204\n\n  - **First Wife:** \ue203Padmavathi Ammal (deceased)\ue204\n\n    - **Son:** \ue203M. K. Muthu\ue204\n\n  - **Second Wife:** \ue203Dayalu Ammal\ue204\n\n    - **Sons:**\n      - **M. K. Alagiri**: \ue203Former Union Minister of Chemicals and Fertilizers.\ue204\n      - **M. K. Stalin**: \ue203Current Chief Minister of Tamil Nadu and DMK President.\ue204\n      - **M. K. Tamilarasu**: \ue203Involved in film production.\ue204\n\n    - **Daughter:** \ue203M. K. Selvi\ue204\n\n  - **Third Wife:** \ue203Rajathi Ammal\ue204\n\n    - **Daughter:** \ue203Kanimozhi Karunanidhi\ue204\n\n**Biographies and Current Positions:**\n\n- **M. K. Muthu**: \ue203Karunanidhi's eldest son from his first marriage.\ue204 \ue203He pursued a career in Tamil cinema as an actor and singer but did not achieve significant success.\ue204 \ue203Currently, he is not active in politics or public life.\ue204\n\n- **M. K. Alagiri**: \ue203Born in 1951 to Dayalu Ammal, Alagiri served as the Union Minister of Chemicals and Fertilizers from 2009 to 2013.\ue204 \ue203He was expelled from the DMK in 2014 and has since remained relatively inactive in politics.\ue204\n\n- **M. K. Stalin**: \ue203Born in 1953 to Dayalu Ammal, Stalin is the current Chief Minister of Tamil Nadu, assuming office in May 2021.\ue204 \ue203He has held various positions within the DMK, including Treasurer and Working President, before becoming the party's President.\ue204\n\n- **M. K. Tamilarasu**: \ue203Son of Dayalu Ammal, Tamilarasu is a film producer and businessman.\ue204 \ue203He maintains a low profile and is not directly involved in politics.\ue204\n\n- **M. K. Selvi**: \ue203Daughter of Dayalu Ammal, Selvi is married to Murasoli Selvam, son of Murasoli Maran.\ue204 \ue203She is not active in politics.\ue204\n\n- **Kanimozhi Karunanidhi**: \ue203Born in 1968 to Rajathi Ammal, Kanimozhi is a Member of Parliament in the Lok Sabha, representing the Thoothukudi constituency.\ue204 \ue203She has been active in politics and has also worked as a journalist and poet.\ue204\n\n**Extended Family:**\n\n- **Murasoli Maran**: \ue203Karunanidhi's nephew, served as Union Minister of Commerce and Industry.\ue204 \ue203He passed away in 2003.\ue204\n\n  - **Kalanithi Maran**: \ue203Son of Murasoli Maran, he is the founder and chairman of Sun Group, which owns Sun TV Network and other media ventures.\ue204\n\n  - **Dayanidhi Maran**: \ue203Born in 1966, Dayanidhi is the younger son of Murasoli Maran.\ue204 \ue203He served as the Union Minister for Communications and Information Technology from 2004 to 2007 and as the Minister of Textiles from 2009 to 2011.\ue204 \ue203He is currently a Member of Parliament in the Lok Sabha, representing the Chennai Central constituency.\ue204\n\n- **Udhayanidhi Stalin**: \ue203Son of M. K. Stalin, Udhayanidhi is an actor and film producer.\ue204 \ue203He is also active in politics, serving as the Secretary of the DMK's Youth Wing and as a Member of the Tamil Nadu Legislative Assembly.\ue204\n\n- **Arulnithi Tamilarasu**: \ue203Son of M. K. Tamilarasu, Arulnithi is an actor in the Tamil film industry.\ue204\n\n\ue203The Karunanidhi family continues to play a pivotal role in Tamil Nadu's political and cultural landscape, with multiple members holding significant positions in government and media.\ue204\n\n**Follow-Up Prompts:**\n\n- How has the Karunanidhi family's influence shaped Tamil Nadu's political landscape?\n\n- What are the major controversies associated with the Karunanidhi family?\n\n- How does the Karunanidhi family's political dynasty compare to other political families in India? "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Karunanidhi_family",
+                  "title": "Karunanidhi family - Wikipedia",
+                  "snippet": "The Karunanidhi family are an Indian political family who have had considerable influence in the politics and cinema of Tamil Nadu.The most notable member of the family was M. Karunanidhi who was the...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/M._Karunanidhi",
+                  "title": "M. Karunanidhi - Wikipedia",
+                  "snippet": "Toggle Political positions subsection. 14.1 Sri Lankan Tamil issue. 14.2 Tamil language. 14.2.1 World Tamil ... needed] In his own writings Karunanidhi said that his family were of the Isai Vellalar,...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thenewsminute.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thenewsminute.com/tamil-nadu/meet-karunanidhi-clan-vast-family-tree-tns-departed-leader-86314",
+                  "title": "Meet the Karunanidhi clan: The vast family tree of TN's departed leader",
+                  "snippet": "Four years after Padmavathi passed away, Karunanidhi\u2019s family arranged his marriage to Dayalu Ammal. With her, Kalaignar had four children \u2013 Alagiri, Stalin, Tamilarasu, and Selvi.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1533859200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wikiwand.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wikiwand.com/en/articles/Karunanidhi_family",
+                  "title": "Karunanidhi family - Wikiwand",
+                  "snippet": "File picture of Karunanidhi. Muthuvel Karunanidhi (3 June 1924 - 7 August 2018) [5] was the head of Dravida Munnetra Kazhagam (DMK), [6] a Dravidian political party in the state of Tamil Nadu.He has b...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ibtimes.co.in",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ibtimes.co.in/karunanidhi-factor-monopoly-power-tamil-nadu-777160",
+                  "title": "The Karunanidhi clan: Wives, sons, daughters, their wealth and what ...",
+                  "snippet": "Karunanidhi's influence on the state administration was often equated to the Gandhi family's dynastic politics through Congress. When the DMK is not in power, Karunanidhi's son and former deputy chief...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1533657240.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "elections.in",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.elections.in/political-leaders/karunanidhi.html",
+                  "title": "Karunanidhi Biography - Age, Education, Family, Political Life",
+                  "snippet": "Karunanidhi Biography - Read about Family, Age, Caste, Married Life, Political Career, Early Political Life, Religion, Net Worth and many key facts. ... Important positions held: 3rd Chief Minister of...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": 1533600000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thehindu.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://frontline.thehindu.com/politics/dmk-75th-celebration-kalaignar-karunanidhi-centenary-tamilnadu-social-justice-politics/article68673985.ece",
+                  "title": "Karunanidhi\u2019s Legacy and DMK\u2019s Struggle with Social Justice in Tamil ...",
+                  "snippet": "Under the leadership of M.K. Stalin, Karunanidhi\u2019s son, the party remains a formidable political force now. After breaking away from the Dravidar Kazhagam in 1949 on the question of participation in e...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1727773080.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dailyo.in",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.dailyo.in/politics/karunanidhi-kalaignar-dmk-a-life-in-politics-the-family-man-25940",
+                  "title": "Karunanidhi, the Kalaignar: His politics, his persona, his ... - dailyO",
+                  "snippet": "Karunanidhi\u2019s eldest son, MK Muthu, born to his first wife Padmavathi, had long since bitten the political dust. He had been propped up as an MGR lookalike when the party splintered in the 1970s.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1533686400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "starsunfolded.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://starsunfolded.com/m-karunanidhi-life-story-political-journey/",
+                  "title": "M. Karunanidhi: Life-Story & Political Journey - StarsUnfolded",
+                  "snippet": "The 2G spectrum scam of 2008 was enough to sink his floating political ship. His daughter, Kanimozhi, and his party member, A. Raja got arrested in connection with the 2G Scam- a scam that incurred a...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "indiatvnews.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.indiatvnews.com/news/india-from-humble-beginnings-to-becoming-a-political-stalwart-a-peek-into-life-career-and-family-of-m-karunanidhi-kalaignar-of-tamil-nadu-456964",
+                  "title": "A peek into life, career and family of M Karunanidhi, 'Kalaignar' of ...",
+                  "snippet": "Karunanidhi was admitted to the Kauvery Hospital on July 28 following a drop in blood pressure. Karunanidhi served as the chief minister of Tamil Nadu for five separate terms in the 1969-2011 period.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": 1533641640.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "259f2534-98ed-4e52-a92b-16e554d8061e",
+          "message_locale": "en-US",
+          "image_results": [
+            {
+              "url": "https://karunanidi.blogspot.com/2018/08/karunanidhi-family-tree-tamilnadu-5.html",
+              "content_url": "https://2.bp.blogspot.com/-Fld4q4pMk-I/W2t9driPPxI/AAAAAAAAIbw/V3WhO65ln44tTv73IJQSmxAaWafYalPKgCLcBGAs/s1600/maxresdefault%2B%25282%2529.jpg",
+              "thumbnail_url": "https://tse1.mm.bing.net/th?id=OIP.DDjT2ICJFIkq3l6ta1SsZAHaEK&pid=Api",
+              "title": "karunanidhi family tree |tamilnadu 5 time chief minister 3 wifes 4 sons ...",
+              "content_size": {
+                "width": 1280,
+                "height": 720
+              },
+              "thumbnail_size": {
+                "width": 474,
+                "height": 266
+              }
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=sIgKMHPvtio",
+              "content_url": "https://i.ytimg.com/vi/sIgKMHPvtio/maxresdefault.jpg",
+              "thumbnail_url": "https://tse3.mm.bing.net/th?id=OIP.lq3aHerLhIcIuYxOhZKvsAHaEK&pid=Api",
+              "title": "#Karunanidhi's Family Photos | #kalaignar karunanidhi | \u0b95\u0bb2\u0bc8\u0b9e\u0bb0\u0bcd ...",
+              "content_size": {
+                "width": 1280,
+                "height": 720
+              },
+              "thumbnail_size": {
+                "width": 474,
+                "height": 266
+              }
+            },
+            {
+              "url": "https://news.abplive.com/news/india/karunanidhi-death-heres-dmk-chiefs-family-tree-739410",
+              "content_url": "https://static.abplive.com/wp-content/uploads/2018/08/08171019/karunanidhi-family.jpg?imheight=628&impolicy=abp_cdn&imwidth=1200",
+              "thumbnail_url": "https://tse4.mm.bing.net/th?id=OIP.9qTd28pgyIC8IOUAgE5qlQHaGj&pid=Api",
+              "title": "Karunanidhi: Here's DMK chief's family tree",
+              "content_size": {
+                "width": 720,
+                "height": 637
+              },
+              "thumbnail_size": {
+                "width": 474,
+                "height": 419
+              }
+            },
+            {
+              "url": "https://starsunfolded.com/rajathi-ammal/",
+              "content_url": "https://starsunfolded.com/wp-content/uploads/2018/08/Rajathi-Ammal-With-Her-Husband-Daughter-Son-In-Law-And-GrandChildren.jpg",
+              "thumbnail_url": "https://tse3.mm.bing.net/th?id=OIP.8eMMJnbAt7MtNZqjRhNXhwHaFC&pid=Api",
+              "title": "Rajathi Ammal (M. Karunanidhi's Wife) Age, Family, Children, Biography ...",
+              "content_size": {
+                "width": 700,
+                "height": 477
+              },
+              "thumbnail_size": {
+                "width": 474,
+                "height": 322
+              }
+            },
+            {
+              "url": "https://tamil.indianexpress.com/tamilnadu/karunanidhi-family-tree/",
+              "content_url": "https://ietamilwpcontent.s3.amazonaws.com/uploads/2018/08/2-25-1024x508.jpg",
+              "thumbnail_url": "https://tse4.mm.bing.net/th?id=OIP.24FqO9xfNrW8wSv-rt6E9gHaDr&pid=Api",
+              "title": "Karunanidhi Family Tree, Karunanidhi News, Kalaignar Family Tree ...",
+              "content_size": {
+                "width": 1024,
+                "height": 508
+              },
+              "thumbnail_size": {
+                "width": 474,
+                "height": 235
+              }
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "\ue200i\ue202turn0image2\ue201",
+              "start_idx": 0,
+              "end_idx": 15,
+              "alt": "![Karunanidhi: Here's DMK chief's family tree](https://tse4.mm.bing.net/th?id=OIP.9qTd28pgyIC8IOUAgE5qlQHaGj&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![Karunanidhi: Here's DMK chief's family tree](https://tse4.mm.bing.net/th?id=OIP.9qTd28pgyIC8IOUAgE5qlQHaGj&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://news.abplive.com/news/india/karunanidhi-death-heres-dmk-chiefs-family-tree-739410",
+                  "content_url": "https://static.abplive.com/wp-content/uploads/2018/08/08171019/karunanidhi-family.jpg?imheight=628&impolicy=abp_cdn&imwidth=1200",
+                  "thumbnail_url": "https://tse4.mm.bing.net/th?id=OIP.9qTd28pgyIC8IOUAgE5qlQHaGj&pid=Api",
+                  "title": "Karunanidhi: Here's DMK chief's family tree",
+                  "content_size": {
+                    "width": 720,
+                    "height": 637
+                  },
+                  "thumbnail_size": {
+                    "width": 474,
+                    "height": 419
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 15,
+              "end_idx": 16,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 101,
+              "end_idx": 102,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 103,
+              "end_idx": 104,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 267,
+              "end_idx": 268,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 343,
+              "end_idx": 344,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 395,
+              "end_idx": 396,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 418,
+              "end_idx": 419,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 446,
+              "end_idx": 447,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 464,
+              "end_idx": 465,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 476,
+              "end_idx": 477,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 500,
+              "end_idx": 501,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 513,
+              "end_idx": 514,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 559,
+              "end_idx": 560,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 611,
+              "end_idx": 612,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 639,
+              "end_idx": 640,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 695,
+              "end_idx": 696,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 727,
+              "end_idx": 728,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 756,
+              "end_idx": 757,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 779,
+              "end_idx": 780,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 791,
+              "end_idx": 792,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 814,
+              "end_idx": 815,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 828,
+              "end_idx": 829,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 851,
+              "end_idx": 852,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 873,
+              "end_idx": 874,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 935,
+              "end_idx": 936,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 985,
+              "end_idx": 986,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 987,
+              "end_idx": 988,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1087,
+              "end_idx": 1088,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1089,
+              "end_idx": 1090,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1145,
+              "end_idx": 1146,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1169,
+              "end_idx": 1170,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1284,
+              "end_idx": 1285,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1286,
+              "end_idx": 1287,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1379,
+              "end_idx": 1380,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1402,
+              "end_idx": 1403,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1513,
+              "end_idx": 1514,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1515,
+              "end_idx": 1516,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1643,
+              "end_idx": 1644,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1670,
+              "end_idx": 1671,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1738,
+              "end_idx": 1739,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1740,
+              "end_idx": 1741,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1809,
+              "end_idx": 1810,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1831,
+              "end_idx": 1832,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1917,
+              "end_idx": 1918,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1919,
+              "end_idx": 1920,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1950,
+              "end_idx": 1951,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1982,
+              "end_idx": 1983,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2110,
+              "end_idx": 2111,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2112,
+              "end_idx": 2113,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2190,
+              "end_idx": 2191,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2237,
+              "end_idx": 2238,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2310,
+              "end_idx": 2311,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2312,
+              "end_idx": 2313,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2336,
+              "end_idx": 2337,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2364,
+              "end_idx": 2365,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2484,
+              "end_idx": 2485,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2512,
+              "end_idx": 2513,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2574,
+              "end_idx": 2575,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2576,
+              "end_idx": 2577,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2723,
+              "end_idx": 2724,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2725,
+              "end_idx": 2726,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2829,
+              "end_idx": 2830,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2858,
+              "end_idx": 2859,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 2922,
+              "end_idx": 2923,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 2924,
+              "end_idx": 2925,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 3060,
+              "end_idx": 3061,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 3091,
+              "end_idx": 3092,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 3166,
+              "end_idx": 3167,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 3169,
+              "end_idx": 3170,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 3352,
+              "end_idx": 3353,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3641,
+              "end_idx": 3641,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [],
+              "has_images": true
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 15,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 15,
+              "end_ix": 16,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 101,
+              "end_ix": 102,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 103,
+              "end_ix": 104,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 267,
+              "end_ix": 268,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 343,
+              "end_ix": 344,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 395,
+              "end_ix": 396,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 418,
+              "end_ix": 419,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 446,
+              "end_ix": 447,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 464,
+              "end_ix": 465,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 476,
+              "end_ix": 477,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 500,
+              "end_ix": 501,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 513,
+              "end_ix": 514,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 559,
+              "end_ix": 560,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 611,
+              "end_ix": 612,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 639,
+              "end_ix": 640,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 695,
+              "end_ix": 696,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 727,
+              "end_ix": 728,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 756,
+              "end_ix": 757,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 779,
+              "end_ix": 780,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 791,
+              "end_ix": 792,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 814,
+              "end_ix": 815,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 828,
+              "end_ix": 829,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 851,
+              "end_ix": 852,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 873,
+              "end_ix": 874,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 935,
+              "end_ix": 936,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 985,
+              "end_ix": 986,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 987,
+              "end_ix": 988,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1087,
+              "end_ix": 1088,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1089,
+              "end_ix": 1090,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1145,
+              "end_ix": 1146,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1169,
+              "end_ix": 1170,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1284,
+              "end_ix": 1285,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1286,
+              "end_ix": 1287,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1379,
+              "end_ix": 1380,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1402,
+              "end_ix": 1403,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1513,
+              "end_ix": 1514,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1515,
+              "end_ix": 1516,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1643,
+              "end_ix": 1644,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1670,
+              "end_ix": 1671,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1738,
+              "end_ix": 1739,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1740,
+              "end_ix": 1741,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1809,
+              "end_ix": 1810,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1831,
+              "end_ix": 1832,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1917,
+              "end_ix": 1918,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1919,
+              "end_ix": 1920,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1950,
+              "end_ix": 1951,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1982,
+              "end_ix": 1983,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2110,
+              "end_ix": 2111,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2112,
+              "end_ix": 2113,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2190,
+              "end_ix": 2191,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2237,
+              "end_ix": 2238,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2310,
+              "end_ix": 2311,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2312,
+              "end_ix": 2313,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2336,
+              "end_ix": 2337,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2364,
+              "end_ix": 2365,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2484,
+              "end_ix": 2485,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2512,
+              "end_ix": 2513,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2574,
+              "end_ix": 2575,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2576,
+              "end_ix": 2577,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2723,
+              "end_ix": 2724,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2725,
+              "end_ix": 2726,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2829,
+              "end_ix": 2830,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2858,
+              "end_ix": 2859,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2922,
+              "end_ix": 2923,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2924,
+              "end_ix": 2925,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3060,
+              "end_ix": 3061,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3091,
+              "end_ix": 3092,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3166,
+              "end_ix": 3167,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3169,
+              "end_ix": 3170,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3352,
+              "end_ix": 3353,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3641,
+              "end_ix": 3641,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8ec89f7f7de47f9f-MAA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "259f2534-98ed-4e52-a92b-16e554d8061e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3744e19e-455e-44b8-ad27-49d4f60ca267",
+  "plugin_ids": null,
+  "conversation_id": "674fc8f0-b5e4-800c-8c7d-2a8a0d0ce8bc",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://news.abplive.com/news/india/karunanidhi-death-heres-dmk-chiefs-family-tree-739410",
+    "https://tse4.mm.bing.net/th?id=OIP.9qTd28pgyIC8IOUAgE5qlQHaGj&pid=Api",
+    "https://static.abplive.com/wp-content/uploads/2018/08/08171019/karunanidhi-family.jpg?imheight=628&impolicy=abp_cdn&imwidth=1200"
+  ],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "id": "674fc8f0-b5e4-800c-8c7d-2a8a0d0ce8bc"
+}
