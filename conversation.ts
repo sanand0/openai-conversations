@@ -40,7 +40,7 @@ export interface MappingMessage {
   end_turn: boolean | null;
   weight: number;
   metadata: MessageMetadata;
-  recipient: string;
+  recipient: Recipient;
   channel: null;
 }
 
@@ -688,3 +688,47 @@ export interface UserContextMessageData {
 export type MessageStatus = "finished_successfully" | "in_progress" | "finished_partial_completion";
 
 export type PluginID = "plugin-33798a7a-5dd8-4023-ad42-fe61f9c0d3c0" | "plugin-44655cb9-a74a-4ae3-88a3-adec2c3fd282" | "plugin-c44800a0-5474-49e0-86ab-d2c621a17b3e" | "plugin-5a0f59f4-4a31-4f2b-b4c0-bb356824f084" | "plugin-5b0d9237-2e0a-4604-bc83-096fb0ccf43c";
+
+/*
+
+Recipient indicates which tool should handle the message.
+Here is the count of recipients from my history.
+
+  32279  all
+    681  browser
+    463  assistant
+    321  web
+    227  python
+    205  dalle.text2im
+    110  bio
+     77  myfiles_browser
+     61  BrowserOp.transcodeWebPage
+     20  actions_zapier_com__jit_plugin.run_action
+     12  actions_zapier_com__jit_plugin.list_available_actions
+      7  AskTheCode.QueryGithubRepositoryFileContents
+      1  AskTheCode.QueryGithubRepositoryStructure
+      5  browserOp.transcodeWebPage
+      2  browserop.transcodeWebPage
+      6  cleanuri_com__jit_plugin.shortenALongUrl
+      3  api_beehiiv_com__jit_plugin.GetPost
+      1  api_beehiiv_com__jit_plugin.GetPosts
+      2  api_stackexchange_com__jit_plugin.search
+      3  askyourpdf.perform_query_query_post
+      1  canmore.comment_textdoc
+      3  canmore.create_textdoc
+      1  canmore.update_textdoc
+      1  catfact_ninja__jit_plugin.catfacts
+      1  catfact_ninja__jit_plugin.getRandomFact
+      2  chatgpt_plugin_canva_com__jit_plugin.generateDesigns
+      1  dalle.image_generation
+      1  deepgame_me__jit_plugin.createNewChat
+      1  diagrams_helpful_dev__jit_plugin.get__MermaidRoute
+      1  diagrams_helpful_dev__jit_plugin.get_DiagramGuidelinesRoute
+      1  diagrams_helpful_dev__jit_plugin.get_ExploreDiagramsRoute
+      1  gpt_slides_aidocmaker_com__jit_plugin.create_pptx_directly_with_content
+      2  jit_plugin.shortenALongUrl
+      1  researchgpt_typeset_io__jit_plugin.v1_paper_list
+      2  smart_slides.getPresentationLink
+      2  www_veed_io__jit_plugin.GenerateProject
+*/
+export type Recipient = string;

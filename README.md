@@ -18,14 +18,19 @@ This is how I generated it:
 
 ## Observations
 
+- [How the search tool works](./how-search-tool-works.md). Note: This is the search tool built into ChatGPT, not the SearchGPT mechanism.
 - ChatGPT uses [Private Unicode Control Characters for Citations and Content References](./private-unicode-control-characters.md)
+- WIP: Parent messages have multiple children if:
+  - ChatGPT shares 2 results and you picked one
+  - You edited a prompt
 
 ## Samples
 
 Here are a few sample conversations to understand how the conversations are stored.
 
 - [Amazon Nova Model Strengths](https://chatgpt.com/share/675019e2-e848-800c-934b-f0a10be7d5b0) [JSON](./samples/amazon-nova-model-strengths.json) has search and news citations
-- [Karunanidhi Political Family Overview](https://chatgpt.com/share/675019c0-d6c4-800c-8156-4803ef5038dc) [JSON](./samples/karunanidhi-political-family-overview.md) shows an image inline
 - [CSV Data Analysis Insights](https://chatgpt.com/share/67501a85-fc14-800c-a2b5-bf0a248f8317) [JSON](./samples/csv-data-analysis-insights.json) is on o1-preview
 - [India Map with Khargone](https://chatgpt.com/share/67501b8d-0204-800c-add0-c28001802f50) [JSON](./samples/india-map-with-khargone.json) has Dall-E images
-- [Node.js Network Libraries](https://chatgpt.com/share/...) [JSON](./samples/nodejs-network-libraries.json) has a system message
+- [Karunanidhi Political Family Overview](https://chatgpt.com/share/675019c0-d6c4-800c-8156-4803ef5038dc) [JSON](./samples/karunanidhi-political-family-overview.md) shows an image inline
+- [Node.js Network Libraries](https://chatgpt.com/share/675042b2-3270-800c-bf8c-3982c18adf3b) [JSON](./samples/nodejs-network-libraries.json) has a system message
+- [Seoul Weather Early October](https://chatgpt.com/share/67504282-e08c-800c-9585-925664ff85b5) [JSON](./samples/seoul-weather-early-october.json) uses the search tool
