@@ -18,7 +18,7 @@ This is how I generated it:
 
 ## Observations
 
-- [How the search tool works](./how-search-tool-works.md). Note: This is the search tool built into ChatGPT, not the SearchGPT mechanism.
+- [How the search tool works](./how-search-tool-works.md). Note: This covers the search tool built into ChatGPT as well as the SearchGPT mechanism.
 - ChatGPT uses [Private Unicode Control Characters for Citations and Content References](./private-unicode-control-characters.md)
 - WIP: Parent messages have multiple children if:
   - ChatGPT shares 2 results and you picked one

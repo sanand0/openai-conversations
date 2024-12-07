@@ -1,35 +1,68 @@
 # How Search Works
 
-Here's what happens when you ask, for example, ["What is the temperature like in Seoul in early October?"](https://chatgpt.com/share/67504282-e08c-800c-9585-925664ff85b5)
-([JSON](./samples/seoul-weather-early-october.json)) with search enabled:
+When you ask, for example:
 
-- ChatGPT sent an assistant message content `{content_type: "code", text: "search(...)"}` with `{recipient: "browser"}`
-  - Here, ChatGPT ran `search("average temperature in Seoul early October")`
-  - This search is performed on `bing.com`. This is not mentioned in the conversation JSON but is shown in the ChatGPT UI.
-- The `browser` tool sent a tool message content `{content_type: "tether_browsing_display", result: "..."}`. The result uses unicode to format, like `【{index}†{title}source】`:
-  ```
-  # 【0†Seoul October Weather, Average Temperature (South Korea) - Weather Spark†weatherspark.com】
-  October Weather in Seoul South Korea. Daily high temperatures decrease by 13°F, from 72°F to 59°F, rarely falling below 50°F or exceeding 78°F.. Daily low temperatures decrease by 12°F, from 57°F to 45°F, rarely falling below 36°F or exceeding 63°F.. For reference, on August 3, the hottest day of the year, temperatures in Seoul typically range from 75°F to 85°F, while on January 18 ...
-  # 【1†Seoul Weather in October, South Korea - Holiday Weather†www.holiday-weather.com】
-  October weather averages for Seoul, South Korea. Temperature, High temperature, Low temperature, Precipitation, Daily sun hours.
-  ...
-  ``
-  ```
-- The `browser` tool result is also available as JSON in `message.metadata._cite_metadata.metadata_list[]` as a list of `{type, title, url, text, pub_date, extra}`. This clearly has more details than the `result` above, such as the date and the full URL.
-  - The search results display shows the site URLs -- and their favicons and titles, which are fetched by the ChatGPT UI, not part of the JSON.
-- The `assistant` sends a message `{content_type: "code", text: "mclick([... INDICES ...])"` to "click" on specific search indices, e.g. `mclick([0, 3, 2, 9, 1])`. These are not sequential. They might be in order of relevance.
-  - Note: ChatGPT uses the search snippet to identify relevance before fetching the page contents.
-- The `browser` tool returns a series of messages (one per `mclick`) with content `{content_type: "tether_quote", url, domain, text, title}`. See [a sample page](#sample-page) below.
-  - The full page is not returned. Only a relevant chunk of the page.
-  - Links are formatted as `【{index}†{text}】` - making it easy to click a specific link. Identical links have the same index.
-- The `assistant` answers the questions from these results. It also includes
-  - `content.parts[0]` which has the text of the answer. The answer includes references like `【7†source】`.
-  - `metadata.content_references[]` is a list of reference objects. These replace text in the source with a content reference.
-    - `matched_text`: "【7†source】", `start_idx`: 319, `end_idx`: 329 -- these indicate where to insert the reference.
-    - `url`, `title`, `snippet` have the link and text to display.
-  - `metadata.citations[]`: This appears to have the same information as `metadata.content_references[]`, formatted differently.
+- ["What is the temperature like in Seoul in early October?"](https://chatgpt.com/share/67504282-e08c-800c-9585-925664ff85b5) ([JSON](./samples/seoul-weather-early-october.json))
+- ["What are people saying about the unique strengths of the Amazon Bedrock Nova models?"](https://chatgpt.com/share/675019e2-e848-800c-934b-f0a10be7d5b0) [JSON](./samples/amazon-nova-model-strengths.json)
 
-### Sample page
+... here's what happens:
+
+- ChatGPT sent an assistant message with content `{content_type: "code", text: "search(...)"}`
+- If `{recipient: "browser"}`
+  - The search is performed on `bing.com`. (This is not mentioned in the conversation JSON but is shown in the ChatGPT UI.)
+  - The search string is constructed as keywords, e.g. `search("average temperature in Seoul early October")`
+- If `{recipient: "web"}`
+  - The search is performed by SearchGPT.
+  - The search string is _exactly_ the user's message - even if it contains errors.
+
+## Browser Tool
+
+1.  The `browser` tool sends a search summary: a tool message with content `{content_type: "tether_browsing_display", result: "..."}`. The result uses unicode to format, like `【{index}†{title}source】`:
+    ```
+    # 【0†Seoul October Weather, Average Temperature (South Korea) - Weather Spark†weatherspark.com】
+    October Weather in Seoul South Korea. Daily high temperatures decrease by 13°F, from 72°F to 59°F, rarely falling below 50°F or exceeding 78°F.. Daily low temperatures decrease by 12°F, from 57°F to 45°F, rarely falling below 36°F or exceeding 63°F.. For reference, on August 3, the hottest day of the year, temperatures in Seoul typically range from 75°F to 85°F, while on January 18 ...
+    # 【1†Seoul Weather in October, South Korea - Holiday Weather†www.holiday-weather.com】
+    October weather averages for Seoul, South Korea. Temperature, High temperature, Low temperature, Precipitation, Daily sun hours.
+    ...
+    ``
+    ```
+    - The `browser` tool result is also available as JSON in `message.metadata._cite_metadata.metadata_list[]` as a list of `{type, title, url, text, pub_date, extra}`. This clearly has more details than the `result` above, such as the date and the full URL.
+    - The search results display shows the site URLs -- and their favicons and titles, which are fetched by the ChatGPT UI, not part of the JSON.
+2.  The `assistant` sends a message `{content_type: "code", text: "mclick([... INDICES ...])"` to "click" on specific search indices, e.g. `mclick([0, 3, 2, 9, 1])`. These are not sequential. They might be in order of relevance.
+    - Note: ChatGPT uses the search snippet to identify relevance before fetching the page contents.
+3.  The `browser` tool returns a series of messages (one per `mclick`) with content `{content_type: "tether_quote", url, domain, text, title}`. See [a sample page](#sample-browser-tool-page) below.
+    - The full page is not returned. Only a relevant chunk of the page.
+    - Links are formatted as `【{index}†{text}】` - making it easy to click a specific link. Identical links have the same index.
+4.  The `assistant` answers the questions from these results. It also includes
+    - `content.parts[0]` which has the text of the answer. The answer includes references like `【7†source】`.
+    - `metadata.content_references[]` is a list of reference objects. These replace text in the source with a content reference.
+      - `matched_text`: "【7†source】", `start_idx`: 319, `end_idx`: 329 -- these indicate where to insert the reference.
+      - `url`, `title`, `snippet` have the link and text to display.
+    - `metadata.citations[]`: This appears to have the same information as `metadata.content_references[]`, formatted differently.
+
+## Web Tool
+
+1.  The `web` tool sends the secret search results message with a `{recipient: "assistant"}` with the search results. The contents are hidden from the JSON and from the conversation UI with `metadata.is_visually_hidden_from_conversation: true`
+2.  The `assistant` answers the question with an `author.metadata.real_author: "tool:web"` like this:
+
+    ```
+    Amazon's Nova models, integrated into AWS's Bedrock, offer a range of capabilities:
+
+    - **Amazon Nova Micro**: A text-only model optimized for speed and cost-efficiency. citeturn0search3
+    - **Amazon Nova Lite**: A multimodal model processing text, images, and videos, designed for low-cost operations. citeturn0search3
+    ...
+
+    navlistAmazon unveils Nova AI modelsturn0news26
+    ```
+
+    - `content.parts[0]` has the answer. The answer includes references like `citeturn<number>search<number>`, e.g. `citeturn<0>search3` or `citeturn0news26`.
+    - `metadata.content_references[]` is a list of reference objects. These replace text in the source with a content reference.
+      - `type`: may be "webpage" or "hidden". If hidden, no other field values are present.
+      - `matched_text`: "citeturn<number>search<number>", `start_idx`: 173, `end_idx`: 192 -- these indicate where to insert the reference.
+      - `url`, `title`, `snippet`, `pub_date`, `alt`, `attribution` etc. have details of the link and text to display.
+    - `metadata.citations[]`: This appears to have the same information as `metadata.content_references[]`, formatted differently.
+
+## Sample browser tool page
 
 - `url`: https://weather-and-climate.com/Seoul-October-averages
 - `domain`: weather-and-climate.com
@@ -190,3 +223,27 @@ Want to know more about historical conditions?
 
 【39† Mud festival in South Korea In July, the peaceful seaside town of Boryeong turned into a chaos of mud for 9 days. We recommend putting this festival on your bucket list.
 ```
+
+## Sample web tool message
+
+Amazon's Nova models, integrated into AWS's Bedrock, offer a range of capabilities:
+
+- **Amazon Nova Micro**: A text-only model optimized for speed and cost-efficiency. citeturn0search3
+
+- **Amazon Nova Lite**: A multimodal model processing text, images, and videos, designed for low-cost operations. citeturn0search3
+
+- **Amazon Nova Pro**: A multimodal model tailored for complex tasks, balancing performance and cost. citeturn0search3
+
+- **Amazon Nova Premier**: Expected in early 2025, aimed at complex reasoning and advanced use cases. citeturn0search3
+
+Additionally, Amazon introduced:
+
+- **Amazon Nova Canvas**: An image generation model with watermarking capabilities to promote responsible AI use. citeturn0news26
+
+- **Amazon Nova Reel**: A video generation model, also featuring watermarking for responsible AI use. citeturn0news26
+
+These models are designed to be fast, cost-effective, and easy to integrate with existing systems and data. citeturn0search30
+
+Playing Devil's Advocate, one might question whether Amazon's Nova models truly offer superior performance and cost benefits compared to established AI models from competitors.
+
+navlistAmazon unveils Nova AI modelsturn0news26
